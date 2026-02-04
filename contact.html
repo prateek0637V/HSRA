@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HSRA</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="./logo.jpeg" alt="HSRA Logo" class="logo-img" onerror="this.style.display='none'">
+                <h1 class="site-title">HSRA</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#objectives">Objectives</a></li>
+                    <li><a href="index.html#leaders">Leaders</a></li>
+                    <li><a href="index.html#activities">Activities</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Smaller for subpage) -->
+    <section class="hero" style="padding: 60px 0;">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="tagline">"Get in touch to join the movement"</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Left Column: Info & Map -->
+                <div class="contact-left">
+                    <h2>Get in Touch</h2>
+                    <br>
+                    <div class="contact-info-item">
+                        <h3>Headquarters</h3>
+                        <p>f-75,Street No. 10<br>laxmi nagar, New Delhi, India 110002</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Email & Phone</h3>
+                        <p>Email: <a href="mailto:info@hsra.org">info@hsra.org</a></p>
+                        <p>Phone: +91 11 2323 1928</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Office Hours</h3>
+                        <p>Monday - Saturday: 10:00 AM - 6:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+
+                    <h3>Our Location</h3>
+                    <<div class="map-container">
+  <iframe
+    width="100%"
+    height="350"
+    frameborder="0"
+    scrolling="no"
+    marginheight="0"
+    marginwidth="0"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=77.2760%2C28.6309%2C77.2860%2C28.6388&layer=mapnik&marker=28.634877%2C77.2810026"
+  ></iframe>
+  <br />
+  <small>
+    <a
+      href="https://www.openstreetmap.org/?mlat=28.634877&mlon=77.2810026#map=18/28.634877/77.2810026"
+      target="_blank"
+    >
+      View Larger Map
+    </a>
+  </small>
+</div>
+
+                </div>
+
+                <!-- Right Column: Form -->
+                <div class="contact-right">
+                    <h2>Send a Message</h2>
+                    <br>
+                    <p>This form is for queries related to membership, events, or general information. Join us in making
+                        India stronger.</p>
+                    <br>
+
+                    <!-- Mailto Form -->
+                    <form action="mailto:info@hsra.org" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required
+                                placeholder="Type your message here..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Send via Email</button>
+
+                        <p style="margin-top: 15px; font-size: 0.9rem; color: #555; font-style: italic;">
+                            * This form will open your default email client to send the message. No data is stored on
+                            our servers.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>HSRA</h2>
+                    <p>"Making India Stronger"</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="index.html#about">About</a>
+                </div>
+                <div class="footer-links">
+                    <h3>Contact</h3>
+                    <a href="mailto:info@hsra.org">info@hsra.org</a>
+                    <a href="#">Locate Us</a>
+                </div>
+            </div>
+            <div class="disclaimer">
+                <p>&copy; 2026 Hindustan Socialist Republican Association. All rights reserved.</p>
+                <p>This website is for informational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
