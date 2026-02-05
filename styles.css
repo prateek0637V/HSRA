@@ -34,8 +34,7 @@
   padding: 0;
 }
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 100px;
+  scroll-padding-top: 90px;
 }
 
 .section {
@@ -463,4 +462,5 @@ footer {
     width: 150px;
     height: 150px;
   }
+
 }
